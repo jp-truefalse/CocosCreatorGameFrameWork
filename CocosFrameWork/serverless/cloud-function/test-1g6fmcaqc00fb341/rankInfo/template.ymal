@@ -1,0 +1,20 @@
+
+Resources:
+  test-1g6fmcaqc00fb341:
+    Type: TencentCloud::Serverless::Namespace
+    rankInfo:
+      Properties:
+        CodeUri: .
+        Description: ''
+        Environment:
+          Variables: {}
+        Events: {}
+        Handler: index.main
+        MemorySize: 256
+        Role: TCB_QcsRole
+        Runtime: Nodejs10.15
+        Timeout: 20
+        VpcConfig:
+          SubnetId: ''
+          VpcId: ''
+      Type: TencentCloud::Serverless::Function

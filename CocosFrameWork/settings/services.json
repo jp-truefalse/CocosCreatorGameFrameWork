@@ -1,0 +1,48 @@
+{
+	"game": {
+		"name": "灼",
+		"appid": "641574330",
+		"cid": "0"
+	},
+	"configs": [
+		{
+			"appid": "658368880",
+			"services": [
+				{
+					"service_id": "272",
+					"enable": true,
+					"params": {
+						"env_id": "jptest12138-3gehumoxec563d1d",
+						"plugin_version": "0.7.2_1.3.3"
+					}
+				}
+			]
+		},
+		{
+			"appid": "641574330",
+			"services": [
+				{
+					"service_id": "272",
+					"enable": true,
+					"params": {
+						"env_id": "test-1g6fmcaqc00fb341",
+						"plugin_version": "0.7.2_1.3.3"
+					}
+				},
+				{
+					"service_id": "235",
+					"enable": false
+				},
+				{
+					"service_id": "314",
+					"enable": false
+				},
+				{
+					"service_id": "242",
+					"enable": false
+				}
+			]
+		}
+	],
+	"needExecNative": true
+}
